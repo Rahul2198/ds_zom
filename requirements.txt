@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+tensorflow 
+keras
+Regular expression
+Natural Language Toolkit
+time
