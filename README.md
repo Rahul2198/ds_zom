@@ -17,6 +17,5 @@ The Streamlit code was run on Spyder environment. The Data Cleaning and Model Bu
 ## Models Used
 LSTM Model was used to predict the ratings
 
-## Web Application
-	![alt text](DSStreamlit1.png)
+## Contributions are open
   
