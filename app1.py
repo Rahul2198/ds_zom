@@ -37,9 +37,9 @@ hotel=st.text_input("Enter the name of the Restaurant", )
 
 if st.button("Next"):
     result= hotel.title()
-    st.success(result)
+    st.success("Now, Enter the review")
    
-review=st.text_input("Your Reviews and Comments", )
+review=st.text_input("Your Reviews and Comments(Meaningful sentences)", )
 
 #if st.button("Submit"):
    #with st.spinner("Review Processing....") :
@@ -75,6 +75,10 @@ def funt(r):
  
 review1 = funt(review)
 if st.button('Submit and Predict your Rating'):
+    st.success("Review Processing....")
+    time.sleep(2)
+    st.success("Review Processed")
+    time.sleep(2)
     prediction = k.predict_classes(review1)
     st.balloons()
     st.success(f'Your rating for the given review is {(prediction[0])} ')
