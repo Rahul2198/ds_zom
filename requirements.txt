@@ -4,5 +4,4 @@ pandas
 tensorflow 
 keras
 regex
-nltk
 times
