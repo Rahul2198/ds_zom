@@ -1,4 +1,4 @@
-# ds_zom
+# Rating Predictor
 ## Resources
 Link to the Dataset - https://www.kaggle.com/batjoker/zomato-restaurants-hyderabad
 
