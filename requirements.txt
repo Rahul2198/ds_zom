@@ -5,4 +5,4 @@ tensorflow
 keras
 regex
 nltk
-time
+times
