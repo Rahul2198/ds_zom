@@ -16,10 +16,7 @@ import streamlit as st
 import re
 import nltk
 from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
-from nltk.stem import WordNetLemmatizer
-ps = PorterStemmer()
-lemmatizer = WordNetLemmatizer()
+
 from tensorflow.keras.layers import Embedding
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
@@ -58,7 +55,7 @@ def funt(r):
      review2 = review2.lower()
      review2 = review2.split()
   
-     review2 = [lemmatizer.lemmatize(word) for word in review2 if not word in stopwords.words('english')]
+     review2 = [word for word in review2 if not word in stopwords.words('english')]
      review2 = ' '.join(review2)
      a=[]
      a.append(review2)
